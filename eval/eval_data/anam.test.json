@@ -1,0 +1,11 @@
+[
+    {
+        "query": "Show CPU anomalies in last 5 seconds",
+        "reference": "CPU anomalies in the last 5 seconds: maximum_usage_cpu:0.000999 uniq_id:778887",
+        "expected_tool_use": [
+            {"tool_name": "get_cpu_anomalies", "tool_input": {"filter_criteria" : "[time_date >= TIMESTAMP_SUB('2025-12-16 01:44:38.923967' INTERVAL 5 SECOND)]" } }
+            
+        ]
+        
+    }
+]
