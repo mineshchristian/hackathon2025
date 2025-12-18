@@ -1,0 +1,94 @@
+24316024294883
+pwd:uK2rQ6BW
+
+Team Name:  Mercurious
+devstar7521@gcplab.me
+Ujum7nyQa5
+ccibt-hack25ww7-752
+
+
+python -m venv
+pip install uv
+pip install poetry
+uv init
+
+
+
+to Eval = 
+uv sync --dev
+uv run pytest eval
+uv run pytest eval --pdb --trace --verbosity=5 -v
+uv run pytest eval --trace --verbosity=5 -v
+to test 
+uv run pytest tests
+
+gcloud run deploy --source . --project ccibt-hack25ww7-752
+gcloud run deploy fastapi-service --source .  --allow-unauthenticated --project ccibt-hack25ww7-752
+
+
+Commands to run in Cloud Shell to install ADK and open the web console to an agent:
+
+#Sets project variable to current project
+export GOOGLE_CLOUD_PROJECT=$(gcloud config get-value project) 
+#Create an isolated python environment to avoid dependency issues
+python3 -m venv .adk-venv 
+source .adk-venv/bin/activate 
+
+#Ensure ADK is installed and up to date
+pip install --upgrade google-adk 
+#Clone ADK Sample Agents from Github
+git clone https://github.com/google/adk-samples.git 
+
+
+================important commnand=====================
+gcloud auth application-default login
+install python 13
+
+python -m venv env2
+pip install uv
+pip install poetry
+uv init
+
+to Eval = 
+uv sync --dev
+uv run pytest eval
+to test 
+uv run pytest tests
+
+gcloud run deploy --source . --project mineshproject101
+
+https://cli.github.com/
+
+Opin API_KEY TbKMvcyYQ96BS8G60KAAxMzUK
+===================
+
+commands
+
+cloudshell workspace ~
+
+export PATH=$PATH:"/home/${USER}/.local/bin"
+python3 -m pip install google-adk
+
+gcloud storage cp gs://qwiklabs-gcp-03-6225592711ff-bucket/adk_project.zip ./adk_project.zip
+
+unzip adk_project.zip
+
+python3 -m pip install -r adk_project/requirements.txt
+
+==================================
+project ID: mineshproject101
+API KEY: AQ.Ab8RN6ICf-BpbhSKeLyBgDx3kUO6DKGPCZbmdhjFr1CocpaxNg
+
+
+==================
+get installed python 13
+python -m ensure pip --upgrade
+pip install uv
+un init hackathon1
+uv venv --python13
+
+- update toml with the dependncies
+
+=================
+
+git clone https://github.com/comet-ml/opik.git
